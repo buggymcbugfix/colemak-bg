@@ -56,3 +56,11 @@ System Preferences > Keyboard layouts > + > scroll, scroll, scroll > Others > Co
 ### Step 4
 
 Грейт съксес!
+
+## How I made the Icon
+
+Just notes for myself, so not sure if this makes sense to anybody outside of my brain.
+
+1. Get PNG of flag.
+2. Make `icon_NxN.png` for `N` in `{64, 32, 16}`, e.g. using Preview's resize feature and save them in a folder called `blah.iconset`.
+3. `iconutil -c icns blah.iconset`
